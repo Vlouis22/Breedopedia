@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: rgb(17, 16, 16);
+  color: white;
+  padding-left: 10%;
+}
+
+.cat--container{
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  color: white;
+  height:min-content;
+  flex-direction: column;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px white;
+
+}
+
+.banlist--container{
+  width: 25%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: white;
+  align-self:  center;
+  float: right;
+  background-color: rgb(48, 48, 48);
+  flex-direction: column;
+
+  
+}
+
+.cat--description{
+  display: flex;
+}
+
+.cat--description > p{
+  margin: 3px;
+  background-color: rgb(27, 171, 219);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.discover--button{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(134, 130, 130);
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.cat--image{
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  max-height: 200px;
+  padding: 20px;
+}
+
+.ban--from--list{
+  list-style-type: none;
+  padding: 12px;
+  margin: 10px;
+  background-color: red;
+  border-radius: 10px;
+}
